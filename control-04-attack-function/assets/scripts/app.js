@@ -6,9 +6,9 @@ let currentPlayerHealth = chosenMaxLife;
 
 adjustHealthBars(chosenMaxLife);
 
-function attackHandler() {
-  const damage = dealMonsterDamage(ATTACK_VALUE);
+function attackHandler(){
+  const damage =  dealMonsterDamage(ATTACK_VALUE);
   currentMonsterHealth -= damage;
 }
 
-attackBtn.addEventListener('click', attackHandler);
+attackBtn.addEventListener('click',attackHandler);
