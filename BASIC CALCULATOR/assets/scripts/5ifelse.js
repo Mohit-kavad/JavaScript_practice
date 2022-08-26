@@ -59,7 +59,7 @@ function multiply(){
     calculateResult('MULTIPLY')
 };
 function divide(){
-    calculateResult()
+    calculateResult('DIVIDE')
 };
 
 addBtn.addEventListener("click", addition);
