@@ -14,6 +14,7 @@ class Product {
 
 class ShoppingCart {
   items = [];
+  totalOutput;
 
   addProduct(product){
     this.items.push(product)
@@ -112,7 +113,7 @@ class Shop {
   render() {
     const renderHook = document.getElementById("app");
 
-    this.cart = new ShoppingCart();
+    const cart = new ShoppingCart();
     const cartEl = cart.render();
     const productList = new ProductList();
     const prodlistEl = productList.render();
