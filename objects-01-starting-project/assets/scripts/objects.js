@@ -45,7 +45,7 @@ const cleanInputs = () => {
   for (const clrInput of userInputs) {
     clrInput.value = "";
   }
-};
+} ;
 const addMovieHandler = () => {
   // adding movie in object
   const title = document.getElementById("title").value;
